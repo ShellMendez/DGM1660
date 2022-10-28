@@ -1,0 +1,34 @@
+using System;
+Console.WriteLine("Hello");
+// Variables
+int myNum = 1;
+int myNum2 = 25;
+float myNum3 = 2.023;
+string myString = "Hello";
+Console.WriteLine(myNum);
+Console.WriteLine('My Int');
+
+
+myNum += 25; //Add int
+Console.WriteLine(myNum);
+myNum += myNum2; //Add int with another Var
+Console.WriteLine(myNum);
+myNum *= 10;
+Console.WriteLine(myNum);
+myNum /= myNum3;
+Console.WriteLine(myNum);
+
+
+
+
+//////////////////////Printing Stuff///////////////////////////////
+Console.WriteLine(myNum);
+Console.WriteLine(myString);
+Console.WriteLine("---------------------");
+string[] MyFamily = {"Mom" , "Dad" , "Brother" , "Sister"};
+    
+	foreach (string i in MyFamily)
+	{
+	    Console.WriteLine(MyFamily[i]);
+	}
+    
